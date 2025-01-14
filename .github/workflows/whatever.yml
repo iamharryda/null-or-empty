@@ -18,8 +18,8 @@ jobs:
       - name: Lint 🧐
         run: npm run lint
 
-      - name: Simulate an error
-        run: echo "About to fail" ; exit 1
+      #- name: Simulate an error
+      #  run: echo "About to fail" ; exit 1
 
       - name: Build 🏗️
         run: npm run build
